@@ -1,0 +1,11 @@
+unite-filter-ai-selector/
+│
+├── index.html
+├── style.css
+├── app.js
+├── data.js
+├── engine.js
+├── README.md
+└── assets/
+    ├── screenshot-1.png
+    ├── screenshot-2.png
