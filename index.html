@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UNITE FILTER AI Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>UNITE FILTER AI Filtration Selector</h1>
+  <p class="sub">Select the best industrial filtration system in seconds</p>
+
+  <div class="form">
+
+    <input id="flow" placeholder="Flow Rate (m³/h)" type="number">
+    <input id="pressure" placeholder="Pressure (bar)" type="number">
+    <input id="solid" placeholder="Solid Content (%)" type="number">
+    <input id="particle" placeholder="Particle Size (μm)" type="number">
+
+    <button onclick="runEngine()">Get Recommendation</button>
+
+  </div>
+
+  <div id="result"></div>
+
+</div>
+
+<script src="data.js"></script>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
